@@ -1,0 +1,11 @@
+SEED = 12345 // for test
+
+LATTICE_TYPE = 1
+L = 1024
+J0 = 1
+J1 = 1
+
+SWEEPS = 1024
+THERMALIZATION = 1024
+
+{ T = 3.2 }

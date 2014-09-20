@@ -1,0 +1,46 @@
+[input parameters]
+SEED = 12345;
+LATTICE_TYPE = 1;
+L = 1024;
+J0 = 1;
+J1 = 1;
+SWEEPS = 1024;
+THERMALIZATION = 1024;
+T = 3.2;
+DIR_NAME = .;
+BASE_NAME = task1;
+WORKER_SEED = 12345;
+DISORDER_SEED = 12345;
+[results]
+Binder Ratio of Magnetization: 0.848073 +/- 0.01 WARNING: ERRORS NOT CONVERGED!!!
+Binder Ratio of Magnetization (unimproved): 0.843481 +/- 0.012 WARNING: ERRORS NOT CONVERGED!!!
+Energy Density: -0.831497 +/- 0.00646; tau = 1.61 WARNING: ERRORS NOT CONVERGED!!!
+    bin #1   : 1024     entries: error = 0.00314182
+    bin #2   : 512      entries: error = 0.00408915
+    bin #3   : 256      entries: error = 0.00525623
+    bin #4   : 128      entries: error = 0.00645672
+Magnetization Density (unimproved): 0.00889397 +/- 0.0136; tau = 0.101
+    bin #1   : 1024     entries: error = 0.0124135
+    bin #2   : 512      entries: error = 0.0125515
+    bin #3   : 256      entries: error = 0.0125119
+    bin #4   : 128      entries: error = 0.0136069
+Magnetization Density^2: 0.158057 +/- 0.0037; tau = 1.72 WARNING: ERRORS NOT CONVERGED!!!
+    bin #1   : 1024     entries: error = 0.00175698
+    bin #2   : 512      entries: error = 0.00232981
+    bin #3   : 256      entries: error = 0.00302411
+    bin #4   : 128      entries: error = 0.00370192
+Magnetization Density^2 (unimproved): 0.157565 +/- 0.00434; tau = 1.59 WARNING: ERRORS NOT CONVERGED!!!
+    bin #1   : 1024     entries: error = 0.00212039
+    bin #2   : 512      entries: error = 0.0027633
+    bin #3   : 256      entries: error = 0.00354363
+    bin #4   : 128      entries: error = 0.00433857
+Magnetization Density^4: 0.0294499 +/- 0.00112; tau = 1.6 WARNING: ERRORS NOT CONVERGED!!!
+    bin #1   : 1024     entries: error = 0.000548447
+    bin #2   : 512      entries: error = 0.000720731
+    bin #3   : 256      entries: error = 0.000925137
+    bin #4   : 128      entries: error = 0.00112306
+Magnetization Density^4 (unimproved): 0.0294217 +/- 0.00136; tau = 1.47 WARNING: ERRORS NOT CONVERGED!!!
+    bin #1   : 1024     entries: error = 0.00068222
+    bin #2   : 512      entries: error = 0.000874777
+    bin #3   : 256      entries: error = 0.00111347
+    bin #4   : 128      entries: error = 0.00135581
