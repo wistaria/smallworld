@@ -11,7 +11,7 @@ public:
   bond(unsigned int N, unsigned int source, unsigned int target) {
     source_ = source % N;
     target_ = target % N;
-if (source_ > target_) std::swap(source_, target_);
+    if (source_ > target_) std::swap(source_, target_);
   }
   bool operator<(bond const& rhs) const {
     return (source_ < rhs.source_) || ((source_ == rhs.source_) && (target_ < rhs.target_));
@@ -53,11 +53,9 @@ public:
         bonds1.push_back(bond(num_sites, i, (i + num_sites / 2)));
       }
     } else {
-      if (lattice_type == 1) {
-        num_bonds1 = num_sites;
-      } else {
-        num_bonds1 = std::sqrt(1.0 * num_sites);
-      }
+      double alpha = boost::lexical_cast<double>(p["ALPHA"]);
+      double kappa = boost::lexical_cast<double>(p["KAPPA"]);
+      num_bonds1 = alpha * std::pow(1.0 * num_sites, kappa);
       std::set<bond> inserted;
       while (true) {
         int source = num_sites * disorder();

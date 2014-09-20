@@ -5,6 +5,10 @@ L = 1024
 J0 = 1
 J1 = 1
 
+// number of J1 bonds: ALPHA * L^KAPPA (for LATTICE_TYPE = 1)
+ALPHA = 1
+KAPPA = 1
+
 SWEEPS = 1024
 THERMALIZATION = 1024
 
